@@ -1,4 +1,5 @@
 # Maze maps
+Maze map files used for testing the AI maze solver.
 
 ## Use
 Place the maze map (.world) in the following directory:

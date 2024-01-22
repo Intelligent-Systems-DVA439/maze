@@ -1,0 +1,2 @@
+# maze
+Maze files

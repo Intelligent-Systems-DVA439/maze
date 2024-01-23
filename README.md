@@ -1,6 +1,7 @@
 # Maze maps
 Maze map files used for testing the AI maze solver.
 
+
 ## Use
 Place the maze map (.world) in the following directory:
 ```
@@ -40,8 +41,15 @@ using:
 ln -s /home/carl/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/launch/maze.launch.py
 ```
 
+The new map can now be launched using:
+```
+ros2 launch turtlebot3_gazebo maze.launch.py
+```
+
+
 ## Disclaimer
 The exact paths need to be altered for the target system.
+
 
 ## License
 Distributed under the MIT license.

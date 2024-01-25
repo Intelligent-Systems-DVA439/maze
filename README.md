@@ -15,6 +15,14 @@ using:
 ```
 ln -s /home/carl/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/worlds/maze.world
 ```
+Or:
+```
+cd ~/turtlebot3_ws/ && colcon build --symlink-install
+```
+For maze_big, just copy the launchfile to:
+```
+$HOME/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/launch/maze_world.launch.py
+```
 
 Create a new launch py file in the following directory by copying one of the existing ones in it:
 ```
